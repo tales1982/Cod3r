@@ -1,0 +1,9 @@
+{
+  "name": "Tipos_Personalizado_ALIAS",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch-tsc":"tsc"
+  }
+}

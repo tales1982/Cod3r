@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ESNext",
+        "outDir": "public/dist",
+        "watch": true
+    },
+
+}
