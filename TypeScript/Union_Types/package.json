@@ -1,0 +1,9 @@
+{
+  "name": "Union_Types",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "watch-tsc":"tsc"
+  }
+}
