@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="public/dist/index.js"defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body style="display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+font-size: 1.4em;
+padding-top: 250px;
+color: blue;">
+    <h1>Opcoes do Compilador</h1>
+    <ol>
+        <li class="li">"noEmitOnError": true</li>
+        <ul><li>Quando você define "noEmitOnError" como "true" no arquivo de configuração do TypeScript (geralmente chamado de "tsconfig.json"), o compilador do TypeScript não irá gerar código JavaScript caso haja erros de compilação no código TypeScript. Isso significa que nenhum arquivo JavaScript será gerado se houver pelo menos um erro de compilação no código.</li></ul>
+        <li class="li">"target": "es5"</li>
+        <ul><li>A opção "target" no compilador do TypeScript é usada para especificar a versão do ECMAScript (também conhecido como JavaScript) para a qual você deseja compilar seu código TypeScript.
+
+        </li></ul>
+        <li class="li">"sourceMap": true</li>
+        <ul><li>A opção "sourceMap" no compilador do TypeScript controla a geração de arquivos de mapeamento de origem (source maps) durante o processo de compilação</li></ul>
+        <li class="li"> "noImplicitAny": true</li>
+        <ul><li>A flag "noImplicitAny" é uma opção do compilador TypeScript que ajuda a garantir que não haja valores implícitos do tipo "any" em seu código. O tipo "any" é uma forma de desabilitar a verificação de tipos estáticos fornecida pelo TypeScript, permitindo que valores de qualquer tipo sejam atribuídos a uma variável sem restrições.</li></ul>
+        <li class="li"> "strictNullChecks": true,</li>
+        <ul><li>Ao habilitar "strictNullChecks", você está optando por um conjunto mais rigoroso de regras de segurança de tipo que ajudam a evitar erros relacionados a valores nulos e indefinidos. Isso pode aumentar a robustez e a qualidade do seu código TypeScript.</li></ul>
+        <li class="li">"noUnusedParameters": true,</li>
+        <ul><li>Quando você define "noUnusedParameters" como "true" no arquivo de configuração do TypeScript, o compilador emitirá um aviso se encontrar parâmetros em uma função ou método que não são utilizados em seu corpo. Isso é útil para identificar e eliminar parâmetros que não são necessários, melhorando a clareza e a legibilidade do código.</li></ul>
+        <li class="li"> "noUnusedLocals": true</li>
+        <ul><li>Quando você define "noUnusedLocals" como "true" no arquivo de configuração do TypeScript, o compilador emitirá um aviso se encontrar variáveis locais que não são utilizadas em seu escopo. Isso é útil para identificar e eliminar variáveis que não são necessárias, melhorando a clareza e a legibilidade do código.</li></ul>
+       
+    </ol>
+
+</body>
+</html>

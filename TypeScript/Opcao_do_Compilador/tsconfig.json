@@ -1,0 +1,13 @@
+{
+   "compilerOptions": {
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "target": "es5",
+      "noEmitOnError": true,
+      "sourceMap": true ,
+      "noImplicitAny": true,
+      "strictNullChecks": true,
+      "noUnusedParameters": true,
+      "noUnusedLocals": true
+   },
+}
