@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "target": "ES5",
+        "noEmitOnError": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noUnusedParameters": true,
+        "noUnusedLocals": true,
+        "outDir": "public/dist"
+    }
+    
+}
