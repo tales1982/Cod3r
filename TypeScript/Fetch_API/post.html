@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="public/dist/index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Post</title>
+</head>
+
+<body>
+    <h1>Fetch API</h1>
+    <h2>Post</h2>
+    <p id="loading">Carregando</p>
+    <div id="post" class="hide">
+        <a href="index.html">Voltar</a>
+        <span id="posts-container">
+            <h2>Comentarios:</h2>
+            <form id="comment-form">
+                <p>
+                    <label for="email">Seu email:</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email">
+                </p>
+                <p>
+                    <label for="body">Seu Comentario:</label><br>
+                    <textarea name="body" id="body" cols="30" rows="10" placeholder="Digite seu comentario"
+                        required></textarea>
+                </p>
+                <input type="submit" value="Envia">
+            </form>
+        </span>
+        
+    </div>
+    <div id="comments-container">
+<a href="index.html">Voltar</a>
+    </div>
+
+
+</body>
+
+</html>

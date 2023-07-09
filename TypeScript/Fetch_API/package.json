@@ -1,0 +1,9 @@
+{
+  "name": "002_criando_interfaces",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "tsc-watch":"tsc"
+  }
+}
